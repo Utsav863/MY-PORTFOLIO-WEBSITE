@@ -8,20 +8,45 @@
     font-size:'Poppins',sans-serif;
     box-sizing: border-box;
 }
+.design{
+    margin:0 3% 2% auto;
+}
+.header-text{
+
+    text-align: center;
+}
+.img{
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    right:3rem;
+    top:10rem;
+}
+.image_container{
+    transition: all 450ms;
+}
+
+.image_container:hover{
+    transform: scale(1.1);
+}
+
+.image_container:focus{
+    transform: rotate('180');
+}
+
 body{
-    background: #080808;
-    color: #fff;
+    background:black;
 }
 #header{
     width:100% ;
     height:100vh;
     background-size: cover; 
     background-position: center;
-    background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-image: url();
 }
 .container{
     margin-top:0px;
-    padding:2px 2%;
+    padding:0;
 }
 
 nav{
@@ -33,6 +58,11 @@ nav{
 }
 .logo{
     width: 140px;
+}
+.navbar-thing{
+    margin-top:1.5rem;
+    position: absolute;
+    right:2rem;
 }
 nav  ul li{
     display: inline-block;
@@ -115,6 +145,16 @@ nav ul ul li a:hover::after {
 }
 .about-col-2 {
     flex-basis: 60%;
+    
+}
+.aboutu{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aboutThing{
+    padding-block: 10px;
+    text-align: center;
+    font-size: 1rem;
 }
 .sub-title{
     font-size: 60px;
@@ -127,7 +167,7 @@ nav ul ul li a:hover::after {
 }
 .tab-links{
     margin-right:50px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -148,20 +188,26 @@ nav ul ul li a:hover::after {
 .tab-contents ul li {
     list-style:none;
     margin:10px 0;
+    font-size: 25px;
 }
+
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 14px;
+    font-size: 24px;
+    margin:0 2% 0 0;
 }
 .tab-contents{
     display: none;
+    font-size: 1rem;
 }
 .tab-contents.active-tab{
     display: block ;
 }
 /* ------services------ */
+
 #services{
     padding: 30px 0;
+    margin:0 3% auto;
 }
 .services-list{
     display: grid;
@@ -196,6 +242,10 @@ nav ul ul li a:hover::after {
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+}
+.workkrle{
+    font-size: 1.5rem;
+    padding: 0;
 }
 /* -----portfolio-------- */
 #portfolio{
@@ -273,6 +323,9 @@ nav ul ul li a:hover::after {
     background:#ff004f;
 }
 /* ---------contact------ */
+#contact{
+    margin:0 3% auto;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -328,14 +381,17 @@ form .btn2{
 }
 .copyright{
     width: 100%;
+    position: absolute;
+    left: 0;
     text-align: center;
-    padding: 25px 0;
+    padding: 10px 0;
     background:#262626;
     font-weight: 300;
     margin-top: 20px;
 }
 .copyright i{
     color: #ff004f;
+    height:0.5rem;
 }
 nav .fas{
     display: none;
@@ -343,11 +399,36 @@ nav .fas{
 html{
     scroll-behavior: smooth;
 }
-
+.workkrle{
+    margin:2% 3% auto;
+}
+.portfoliokrle{
+    margin:2% 3% auto;
+    padding: 0;
+}
+#portfolio{
+    padding: 0;
+}
+#services{
+    padding: 0;
+}
 /* --------css for small screen------ */
 @media only screen and (max-width:600px){
+    .display_thing{
+        display: block;
+    }
+    .hide{
+        display: none   ;
+    }
     #header{
-        background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+        background-image: url();
+    }
+    .work{
+        margin:0 5% 0 5% ;
+    }
+    .work-list{
+        /* margin:0 0 0 0; */
+        padding: 0%;
     }
     .header-text{
         margin-top: 20%;
@@ -399,7 +480,7 @@ html{
     }
     .contact-left{
         flex-basis: 100%;
-        padding:10%;
+        padding:8%;
         margin-top:-2rem;
         height:50%;
     }
@@ -411,15 +492,38 @@ html{
     }
     .contact-right{
         flex-basis: 100%;
-        padding:10%;
-        margin-top:-2rem;
+        margin:-2rem 3% auto;
+
     }
     .copyright{
         font-size: 18px;
+        width: 100%;
+        height: 6%;
+        padding: 13px;
     }
-} 
+    .services-list{
+        margin:0 3% auto;
+    }
+    .sub-title{
+        margin:5% 3% auto;
+        font-size: 3.5rem;
+    }
+    .okucan{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+    }
+    .workkrle{
+        margin:2% 3% auto;
+    } 
+    .portfoliokrle{
+        padding: 0rem;
+        margin-top:0rem;
+    }
 #msg{
     color: #61b752;
     margin-top: -35px;
     display: block;
 }
+}
+    
