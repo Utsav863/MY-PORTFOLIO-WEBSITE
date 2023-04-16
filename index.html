@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <img class="img" src="images/IMG20230316204310-modified.png" -->
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c63102f54e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <!-- <img src="images/welocme.png" class="logo" align="left"/> -->
+      <div class="container">
+        <nav>
+          <!-- <div class="center-div-side"><img src="images/welocme.png" class="logo"></div> -->
+          <div class="center-div">
+            <ul id="sidemenu" class="navbar-thing" style="padding-inline: 1rem;">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>  
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()" style="position: absolute;top:1rem; right: 1rem;"></i>
+          </div>
+        </nav>
+      </div>
+      <div style="display: flex; justify-content: space-around;" class="display_thing">
+        <div class="header-text">
+          <p class="design" style="font-weight: bold">WEB DEVELOPER</p>
+          <h5><span >UI/UX Designer</span></h5>
+          <h1>
+            <span1 class="hiutsav">Hi ,&nbsp;I'm&nbsp;<br/></span1><span2>UTSAV-SINGH</span2> <br />
+            FROM INDIA
+          </h1>
+        </div>
+        <div style=" width: 30%; display: grid; place-items: center; margin-top: 10rem; border-radius: 50%;margin-right: 2rem;" class="image_container hide">
+          <div style=" width: 100%; overflow: hidden; margin-inline: auto; height: 25rem;
+            display: flex; justify-content: center; align-items: center; border-radius: 50%;
+            " class="image_thing hide">
+            <img class="hide" src="images/IMG20230316204310-modified.png" alt="There was a image here" style="object-fit: fill; margin-top: 30rem;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----ABOUT=-------- -->
+    <div id="about">
+      <div class="container">
+        <div class="workkrle">
+          <!-- <div class="flexy" style="display: flex; gap: 4rem;"> -->
+          <div class="about-col-1">
+            <!-- <img src="images/WhatsApp Image 2023-02-18 at 9.22.09 AM.jpg"> -->
+          </div>
+          <div class="about-col-2">
+            <h1 class="aboutu">ABOUT ME</h1>
+            <p class="aboutThing">
+              I'm Currently Pursuing BECSE from CHITKARA UNIVERSITY and
+              I'm in first year . I recently started learning WEB
+              DEVELOPMENT and I'm getting keen interest into it .My hobbies
+              includes Dancing and Drawing
+              ,Exploring about Science and Technology
+              ,Learning new Things
+              ,Playing new games
+              ,Exploring the new things,Dancing and Drawing,
+              Exploring about Science and Technology,
+              Learning new Things,
+              Playing new games,
+              Exploring the new things,
+              Video editing
+              ,Video editing.I'm kind
+              divorted to things I like and deeply motivated to achieve my goal
+              with all my efforts and devotion.I have knowledge in web development various coding languages and android development.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span>DESIGNING WEB APP INTERFACE</li>
+                <li><span>WEB DEVELOPMENT</span>WEB  DEVELOPMENT</li>
+                <li><span>APP DEVELOPMENT</span>BUILDING ANDROID APPS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022-Current</span>WEB DEVELOPMENT AT CHITKARA
+                  UNIVERSITY
+                </li>
+                <li><span>2022</span>STUDIED VARIOUS CODING LANGUAGES</li>
+                <li><span>2019-2020</span>LEARNED   VARIOUS OPERATIONS ON COMPUTER</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                    <li><span>2022</span>BECSE AT CHITKARA UNIVERSITY</li>
+                  <li><span>2019-2021</span>HIGH SCHOOL COMPLETION
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----services-----    -->
+    <div id="services">
+      <div class="serviceskrle">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code-compare"></i>
+            <h2>Web Design</h2>
+            <p>
+              IM CURRENTLY AT INTERMEDIATE LEVEL AND I HAVE A GOOD KNOWLEDGE OF HTML AND  HALF OF CSS AND IM STILL ON PATH TO LEARN MORE AND ACHIEVE A PROFESSIONAL LEVEL .
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>
+            <h2>VIDEO EDITING</h2>
+            <p>
+              I HAVE A GOOD KNOWLEDGE OF VIDEO AND PHOTO EDITING AND PERFORMED EDITING AT VARIOUS PLATFORM INCLUDING KINEMASTER,WONDERSHARE FLIMORA,YOUTUBE VIDEO EDITING ETC .
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>APP Design</h2>
+            <p>
+                IM AT BEGINNER LEVEL OF ANDROID DEVELOPMENT AND JUST STARTED LEARNING ANDROID DEVELOPMENT WITH KOTLIN LANGUAGE AND MY FIRST APP IS OF COUNT OF CLICKS . 
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    \
+    <!-- -----potrfolio---- -->
+    <div id="portfolio">
+      <div class="portfoliokrle">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Video Editing</h3>
+              <p>I HAVE A GOOD KNOWLEDGE OF VIDEO AND PHOTO EDITING AND PERFORMED EDITING AT VARIOUS PLATFORM INCLUDING KINEMASTER,WONDERSHARE FLIMORA,YOUTUBE VIDEO EDITING ETC </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Android development</h3>
+              <p>IM AT BEGINNER LEVEL OF ANDROID DEVELOPMENT AND JUST STARTED LEARNING ANDROID DEVELOPMENT WITH KOTLIN LANGUAGE AND MY FIRST APP IS OF COUNT OF CLICKS </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Web developer</h3>
+              <p>IM CURRENTLY AT INTERMEDIATE LEVEL AND I HAVE A GOOD KNOWLEDGE OF HTML AND  HALF OF CSS AND IM STILL ON PATH TO LEARN MORE AND ACHIEVE A PROFESSIONAL LEVEL </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- -----contact---- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p style="font-size: 1.5rem">
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >Utsavsinghcontact@gmail.com
+            </p>
+            <p style="font-size: 1.5rem">
+              <i class="fa-solid fa-phone-volume"></i>+917009464863
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.hackerrank.com/dashboard"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+              <a href="https://github.com/Utsav863/CODING_QUESTIONS"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <div class="okucan">
+              <a href="mycv.pdf" download class="btn btn2"
+                >Download Cv</a
+              >
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <div style="width: 100%; display: flex; justify-content: center">
+                <button type="Submit" class="btn btn2">Submit</button>
+              </div>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright@Utsav<i class="fa-solid fa-hat-cowboy"></i>web developer
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      sidemenu.style.right = "0";
+      function openmenu() {
+        sidemenu.style.display = "block";
+      }
+      function closemenu() {
+        sidemenu.style.display = "none";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx7a30h3whvkIiU9Hsx9DiEkW-zUpEaJSpK488pZoxld44EY60TB6u_13LDDG3E9Ucgug/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
