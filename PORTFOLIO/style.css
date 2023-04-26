@@ -55,6 +55,15 @@ nav{
 .logo{
     width: 140px;
 }
+.ok{
+    color: #61b752;
+}
+.h1{
+    color: #61b752;
+}
+.by{
+    color:aqua;
+}
 .navbar-thing{
     margin-top:1.5rem;
     position: absolute;
